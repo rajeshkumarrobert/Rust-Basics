@@ -1,12 +1,14 @@
 mod clock;
 mod guessing_game;
 mod learn_tuple;
+mod reverse_string;
 use clock::Clock;
 
 fn main() {
     println!("MY first Game");
     //sample();
-    clock::Clock::new(25, 0);
+    //clock::Clock::new(25, 0);
+    reverse_string::reverse("Hello");
 }
 #[test]
 fn on_the_hour() {

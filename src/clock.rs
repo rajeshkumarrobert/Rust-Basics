@@ -9,7 +9,7 @@ impl fmt::Display for Clock {
         write!(f, "{:0>2}:{:0>2}", self.hours, self.minutes)
     }
 }
-
+#[allow(dead_code)]
 impl Clock {
     pub fn new(hours: i32, minutes: i32) ->Self{
 
